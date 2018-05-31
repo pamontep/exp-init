@@ -1,4 +1,4 @@
-function math(a){
+function math (a) {
     var b = (a==1) ? true : false;
     var c = (a==1) ? true
                    : false;
