@@ -1,6 +1,5 @@
 import React from 'react';
 import { ActivityIndicator, AppRegistry, StyleSheet, Text, View, Alert, ScrollView } from 'react-native';
-import { Button } from 'react-native-elements';
 import { Loader } from '../../components/Loader';
 import { AlertConfirmation } from '../Home/components';
 
