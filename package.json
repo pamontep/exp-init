@@ -2,6 +2,16 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "author": "Pamontep Panya <pamontep.p@gmail.com>",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pamontep/exp-init.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pamontep/exp-init/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "expo": "^27.0.1",
@@ -10,5 +20,10 @@
     "react-native-elements": "^0.19.1",
     "react-navigation": "^2.0.4",
     "save": "^2.3.2"
+  },
+  "devDependencies": {
+    "codecov": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
   }
 }
