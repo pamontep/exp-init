@@ -12,5 +12,5 @@ install:
   - npm install -g codecov mocha istanbul
 
 script:
-  - mocha tests/*.test.js
+  - mocha tests/*.test.js 
   - codecov -t 16d209d9-dd12-4c1a-acca-d7a6cd80561e
