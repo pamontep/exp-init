@@ -10,7 +10,7 @@ export default class AlertConfirmation extends React.Component {
 
   render() {
     return (
-      <Button {...this.props}></Button>
+      <Button style={styles.buttonContainer} {...this.props}></Button>
     );
   }
 
