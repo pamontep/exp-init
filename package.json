@@ -3,7 +3,7 @@
   "private": true,
   "author": "Pamontep Panya <pamontep.p@gmail.com>",
   "scripts": {
-    "test": "mocha tests/*.test.js && codecov -t 16d209d9-dd12-4c1a-acca-d7a6cd80561e"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha -R tests/*.test.js && codecov -t 16d209d9-dd12-4c1a-acca-d7a6cd80561e"
   },
   "repository": {
     "type": "git",
