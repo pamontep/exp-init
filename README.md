@@ -1,5 +1,5 @@
 # exp-init
-[![Build Status](https://travis-ci.com/pamontep/exp-init.svg?branch=master)](https://travis-ci.com/pamontep/exp-init)
+[![Build Status](https://travis-ci.com/pamontep/exp-init.svg?branch=master)](https://travis-ci.com/pamontep/exp-init) ![codecov](https://codecov.io/gh/pamontep/exp-init/branch/master/graph/badge.svg)](https://codecov.io/gh/pamontep/exp-init)
 
 A better of Expo.io folder structure which is ready for development.
 
