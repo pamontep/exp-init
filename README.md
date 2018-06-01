@@ -1,7 +1,7 @@
 # exp-init
 [![Build Status](https://travis-ci.com/pamontep/exp-init.svg?branch=master)](https://travis-ci.com/pamontep/exp-init) ![codecov](https://codecov.io/gh/pamontep/exp-init/branch/master/graph/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A better of Expo.io folder structure which is ready for development.
+An Expo.io folder structure which is ready for development.
 
 # Version
 
