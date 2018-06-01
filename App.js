@@ -15,6 +15,6 @@ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WIT
 OR OTHER DEALINGS IN THE SOFTWARE.
 */
 import { createStackNavigator } from 'react-navigation';
-import routeConfig from './src/routeConfig';
+import routeConfig from './app/src/config/routeConfig';
 
 export default createStackNavigator(routeConfig);

@@ -1,7 +1,6 @@
 import React from 'react';
 import { ActivityIndicator, AppRegistry, StyleSheet, Text, View, Alert, ScrollView } from 'react-native';
-import { Loader } from '../../components/Loader';
-import { AlertConfirmation } from '../Home/components';
+import { AlertConfirmation, Loader } from '../../components';
 
 export default class Home extends React.Component {
 
